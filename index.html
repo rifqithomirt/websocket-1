@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Socket.IO chat</title>
+        <style>
+            body {
+                margin: 0;
+                padding-bottom: 3rem;
+                font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            }
+            #messages {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+            }
+            #messages > li {
+                padding: 0.5rem 1rem;
+            }
+            #messages > li:nth-child(odd) {
+                background: #efefef;
+            }
+        </style>
+    </head>
+    <body>
+        <ul id="messages"></ul>
+        <script src="./socket.io.js"></script>
+
+        <script>
+            var socket = io('http://localhost:3000');
+            var messages = document.getElementById('messages');
+            var room = "data";
+            socket.on(room, function (msg) {
+                var item = document.createElement('li');
+                item.textContent = msg;
+                messages.appendChild(item); 
+  
+                document.getElementById("messages").innerHTML = msg;
+            });
+           
+        </script>
+    </body>
+</html>
