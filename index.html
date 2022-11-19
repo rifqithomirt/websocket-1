@@ -30,11 +30,12 @@
             var messages = document.getElementById('messages');
             var room = "data";
             socket.on(room, function (msg) {
+                console.log(msg)
+                var obj = JSON.parse(msg)
                 var item = document.createElement('li');
-                item.textContent = msg;
+                item.textContent = obj[0]['data'] + ':' + obj[0]['value'];
                 messages.appendChild(item); 
-  
-                document.getElementById("messages").innerHTML = msg;
+                // document.getElementById("messages").innerHTML = msg;
             });
            
         </script>
