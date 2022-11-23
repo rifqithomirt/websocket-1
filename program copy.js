@@ -158,12 +158,14 @@ var main1 = async function() {
             var alarmLow = resultAlarmLow.response._body._valuesAsArray
 
             var objData = []
-            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh1', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh2', value: alarmHigh[1], created_at: new Date().toISOString()})
-            if( alarmLow[0] ) objData.push({label: 'AlarmLow1', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmLow[1] ) objData.push({label: 'AlarmLow2', value: alarmHigh[1], created_at: new Date().toISOString()})
-            io.emit(alarm, JSON.stringify(objData));
-            emitData.emit('telegram', JSON.stringify(objData))
+            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh1', value: objData[0]['value'], created_at: new Date().toISOString()})
+            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh2', value: objData[1]['value'], created_at: new Date().toISOString()})
+            if( alarmLow[0] ) objData.push({label: 'AlarmLow1', value: objData[0]['value'], created_at: new Date().toISOString()})
+            if( alarmLow[1] ) objData.push({label: 'AlarmLow2', value: objData[1]['value'], created_at: new Date().toISOString()})
+            if( objData.length > 0 ) {
+                io.emit(alarm, JSON.stringify(objData));
+                emitData.emit('telegram', JSON.stringify(objData))
+            }
             setTimeout(main1, options[0].loop)
 
         } catch (error) {
@@ -202,15 +204,14 @@ var main2 = async function() {
             var alarmLow = resultAlarmLow.response._body._valuesAsArray
 
             var objData = []
-            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh3', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh4', value: alarmHigh[1], created_at: new Date().toISOString()})
-            if( alarmLow[0] ) objData.push({label: 'AlarmLow3', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmLow[1] ) objData.push({label: 'AlarmLow4', value: alarmHigh[1], created_at: new Date().toISOString()})
+            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh3', value: objData[0]['value'], created_at: new Date().toISOString()})
+            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh4', value: objData[1]['value'], created_at: new Date().toISOString()})
+            if( alarmLow[0] ) objData.push({label: 'AlarmLow3', value: objData[0]['value'], created_at: new Date().toISOString()})
+            if( alarmLow[1] ) objData.push({label: 'AlarmLow4', value: objData[1]['value'], created_at: new Date().toISOString()})
             if( objData.length > 0 ) {
                 io.emit(alarm, JSON.stringify(objData));
                 emitData.emit('telegram', JSON.stringify(objData))
             }
-            
             setTimeout(main2, options[0].loop)
         } catch (error) {
             var objData = [ 
@@ -219,7 +220,6 @@ var main2 = async function() {
             ]
             io.emit(room, JSON.stringify(objData));
             setTimeout(main2, options[0].loop)
-
         }
     } else {
         var objData = [ 
@@ -227,7 +227,6 @@ var main2 = async function() {
             {label: 'Temperature4', error: 'Komunikasi Terputus' },
         ]
         io.emit(room, JSON.stringify(objData));
-        // console.log(connected2, 'connected')
         setTimeout(main2, options[0].loop)
     }
 }
