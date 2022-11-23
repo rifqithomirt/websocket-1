@@ -141,37 +141,22 @@ socket2.on('end', function(){
 
 // Main Function Reading Register
 var main1 = async function() {
-    // console.log('loop1', connected1)
     if( connected1 ) {
-        client1.readHoldingRegisters(process.env.TEMP1, 2).then(function (result) {
-            var arrData = result.response._body._values
+        try {
+            var temperature = await client1.readHoldingRegisters(process.env.TEMP1, 2)
+            var arrData = temperature.response._body._values
             var objData = [ 
                 {label: 'Temperature1', value: arrData[0], created_at: new Date().toISOString()}, 
                 {label: 'Temperature2', value: arrData[1], created_at: new Date().toISOString()},
             ]
             emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
-            console.log(arrData, '1')
-            setTimeout(main1, options[0].loop)
-        }, function(error){
-            
-            var objData = [ 
-                {label: 'Temperature1', error: 'Komunikasi Error', message: JSON.stringify(error)},
-                {label: 'Temperature2', error: 'Komunikasi Error', message: JSON.stringify(error)},
-            ]
-            io.emit(room, JSON.stringify(objData));
-            // console.log(error, 'err')
-            setTimeout(main1, options[0].loop)
-        });
 
-        try {
             var resultAlarmHigh = await client1.readCoils(process.env.ALARMHIGH1, 2);
             var resultAlarmLow = await client1.readCoils(process.env.ALARMLOW1, 2);
-
             var alarmHigh = resultAlarmHigh.response._body._valuesAsArray
             var alarmLow = resultAlarmLow.response._body._valuesAsArray
 
-            
             var objData = []
             if( alarmHigh[0] ) objData.push({label: 'AlarmHigh1', value: alarmHigh[0], created_at: new Date().toISOString()})
             if( alarmHigh[1] ) objData.push({label: 'AlarmHigh2', value: alarmHigh[1], created_at: new Date().toISOString()})
@@ -179,9 +164,15 @@ var main1 = async function() {
             if( alarmLow[1] ) objData.push({label: 'AlarmLow2', value: alarmHigh[1], created_at: new Date().toISOString()})
             io.emit(alarm, JSON.stringify(objData));
             emitData.emit('telegram', JSON.stringify(objData))
-        } catch (err) {
-            console.log(err)
+            setTimeout(main1, options[0].loop)
 
+        } catch (error) {
+            var objData = [ 
+                {label: 'Temperature1', error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: 'Temperature2', error: 'Komunikasi Error', message: JSON.stringify(error)},
+            ]
+            io.emit(room, JSON.stringify(objData));
+            setTimeout(main1, options[0].loop)
         }
     } else {
         var objData = [ 
@@ -193,45 +184,41 @@ var main1 = async function() {
     }
 }
 var main2 = async function() {
-    // console.log('loop')
     if( connected2 ) {
-        client2.readHoldingRegisters(process.env.TEMP2, 2).then(function (result) {
-            var arrData = result.response._body._values
+        try {
+            var temperature = await client2.readHoldingRegisters(process.env.TEMP2, 2);
+            var arrData = temperature.response._body._values
             var objData = [ 
                 {label: 'Temperature3', value: arrData[0], created_at: new Date().toISOString()},
                 {label: 'Temperature4', value: arrData[1], created_at: new Date().toISOString()},
             ]
             emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
-            console.log(arrData, '2')
-            setTimeout(main2, options[0].loop)
-        }, function(error){
-            var objData = [ 
-                {label: 'Temperature3', error: 'Komunikasi Error', message: JSON.stringify(error)},
-                {label: 'Temperature4', error: 'Komunikasi Error', message: JSON.stringify(error)},
-            ]
-            io.emit(room, JSON.stringify(objData));
-            // console.log(error, 'err')
-            setTimeout(main2, options[0].loop)
-        });
 
-        try {
             var resultAlarmHigh = await client1.readCoils(process.env.ALARMHIGH2, 2);
             var resultAlarmLow = await client1.readCoils(process.env.ALARMLOW2, 2);
 
             var alarmHigh = resultAlarmHigh.response._body._valuesAsArray
             var alarmLow = resultAlarmLow.response._body._valuesAsArray
 
-            
             var objData = []
             if( alarmHigh[0] ) objData.push({label: 'AlarmHigh3', value: alarmHigh[0], created_at: new Date().toISOString()})
             if( alarmHigh[1] ) objData.push({label: 'AlarmHigh4', value: alarmHigh[1], created_at: new Date().toISOString()})
             if( alarmLow[0] ) objData.push({label: 'AlarmLow3', value: alarmHigh[0], created_at: new Date().toISOString()})
             if( alarmLow[1] ) objData.push({label: 'AlarmLow4', value: alarmHigh[1], created_at: new Date().toISOString()})
-            io.emit(alarm, JSON.stringify(objData));
-            emitData.emit('telegram', JSON.stringify(objData))
-        } catch (err) {
-            console.log(err)
+            if( objData.length > 0 ) {
+                io.emit(alarm, JSON.stringify(objData));
+                emitData.emit('telegram', JSON.stringify(objData))
+            }
+            
+            setTimeout(main2, options[0].loop)
+        } catch (error) {
+            var objData = [ 
+                {label: 'Temperature3', error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: 'Temperature4', error: 'Komunikasi Error', message: JSON.stringify(error)},
+            ]
+            io.emit(room, JSON.stringify(objData));
+            setTimeout(main2, options[0].loop)
 
         }
     } else {
