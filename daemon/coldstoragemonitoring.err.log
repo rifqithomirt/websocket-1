@@ -1,0 +1,25 @@
+[bot.error.update] Error: read ECONNRESET
+    at TLSWrap.onStreamRead (node:internal/stream_base_commons:217:20)
+[bot.error.update] Error: getaddrinfo ENOTFOUND api.telegram.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+[bot.error.webhook] Error: getaddrinfo ENOTFOUND api.telegram.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.telegram.org'
+}
+[bot.error.webhook] Error: getaddrinfo ENOTFOUND api.telegram.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.telegram.org'
+}
+[bot.error.webhook] Error: getaddrinfo ENOTFOUND api.telegram.org
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26) {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'api.telegram.org'
+}
