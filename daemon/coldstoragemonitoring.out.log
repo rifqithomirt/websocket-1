@@ -15692,3 +15692,4487 @@ Error: connect ECONNREFUSED 192.168.100.6:502
   address: '192.168.100.6',
   port: 502
 } error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:29095)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:29103)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:29114)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:29117)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:29131)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:21533)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:21536)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:21541)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12166)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12169)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12174)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12181)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12184)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12189)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12194)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12197)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12202)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12205)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12213)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12224)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12230)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12233)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12244)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12248)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12251)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28342)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28350)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28353)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28388)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28411)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28424)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:28434)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7520)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7532)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7540)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7557)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7560)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7587)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7601)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:7606)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9575)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9578)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9581)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9591)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9595)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9603)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9612)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9620)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9628)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:9640)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:23841)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:23870)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:23568)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12218)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:12263)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24370)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24393)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24412)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24428)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24436)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24445)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24469)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24473)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24476)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24485)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24490)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24504)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24508)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24525)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24529)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:24540)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22378)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22382)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22399)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22404)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22407)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:22412)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14383)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14437)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14450)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14456)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14459)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14468)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14476)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14479)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14484)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14489)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14492)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14498)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14503)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14506)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14513)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3485)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3489)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3502)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3509)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3513)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3521)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3532)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3538)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3545)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3552)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3555)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:3560)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20645)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20648)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20657)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20660)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20664)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20671)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20676)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20679)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20686)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20689)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20694)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20698)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20701)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20704)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20710)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20716)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20721)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20733)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20739)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20744)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20749)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20757)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20760)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:20767)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14772)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14775)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14780)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14788)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:14792)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:11364)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26432)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26441)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26455)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2760)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2764)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2770)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2774)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2777)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2782)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2791)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2794)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2798)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2806)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2809)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2815)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2822)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:2825)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26642)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26646)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26649)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26656)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26694)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:26711)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:8365)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect ECONNREFUSED 192.168.100.6:502
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16) {
+  errno: -4078,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '192.168.100.6',
+  port: 502
+} error1
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:8376)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11)
+    at runNextTicks (node:internal/process/task_queues:65:3)
+    at listOnTimeout (node:internal/timers:528:9)
+    at processTimers (node:internal/timers:502:7) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:8383)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2
+Error: connect EINVAL 192.168.1.212:8000 - Local (0.0.0.0:8388)
+    at internalConnect (node:net:931:16)
+    at defaultTriggerAsyncIdScope (node:internal/async_hooks:465:18)
+    at node:net:1022:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+  errno: -4071,
+  code: 'EINVAL',
+  syscall: 'connect',
+  address: '192.168.1.212',
+  port: 8000
+} error2

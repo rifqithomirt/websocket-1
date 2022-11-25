@@ -7,6 +7,10 @@ const mysql = require('mysql2');
 const EventEmitter = require('events');
 const dotenv = require('dotenv')
 
+const mailer = require('./mailer')
+
+mailer.send({subject: 'Cold Storage Alert', text:' Alert High Temperature '})
+
 dotenv.config();
 var socket1 = new net.Socket()
 var socket2 = new net.Socket()
@@ -41,8 +45,8 @@ const telegramBot = '5856032986:AAHBYV-cSPxjrUOvzjlmlynFVLMHrIv-x-A'
 const pool = mysql.createPool({
   host: '127.0.0.1',
   user: 'root',
-  port: 3307,
-  database: 'cold_storage',
+  port: 3306,
+  database: 'coldstorage',
   waitForConnections: true,
   connectionLimit: 50,
   queueLimit: 0
@@ -144,13 +148,18 @@ var main1 = async function() {
     if( connected1 ) {
         try {
             var temperature = await client1.readHoldingRegisters(process.env.TEMP1, 2)
-            var arrData = temperature.response._body._values
+            var arrData = [
+                temperature.response._body._valuesAsBuffer.readInt16BE(0),
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)
+            ]
+
             var objData = [ 
                 {label: 'Temperature1', value: arrData[0], created_at: new Date().toISOString()}, 
                 {label: 'Temperature2', value: arrData[1], created_at: new Date().toISOString()},
             ]
             emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
+            // console.log(objData)
 
             var resultAlarmHigh = await client1.readCoils(process.env.ALARMHIGH1, 2);
             var resultAlarmLow = await client1.readCoils(process.env.ALARMLOW1, 2);
@@ -166,6 +175,7 @@ var main1 = async function() {
                 io.emit(alarm, JSON.stringify(objData));
                 emitData.emit('telegram', JSON.stringify(objData))
             }
+            console.log(objData)
             setTimeout(main1, options[0].loop)
 
         } catch (error) {
@@ -189,7 +199,10 @@ var main2 = async function() {
     if( connected2 ) {
         try {
             var temperature = await client2.readHoldingRegisters(process.env.TEMP2, 2);
-            var arrData = temperature.response._body._values
+            var arrData = [
+                temperature.response._body._valuesAsBuffer.readInt16BE(0),
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)
+            ]
             var objData = [ 
                 {label: 'Temperature3', value: arrData[0], created_at: new Date().toISOString()},
                 {label: 'Temperature4', value: arrData[1], created_at: new Date().toISOString()},

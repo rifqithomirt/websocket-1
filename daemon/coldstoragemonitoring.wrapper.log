@@ -1,0 +1,14 @@
+2022-11-24 19:43:29 - Stopping coldstoragemonitoring.exe
+2022-11-24 19:43:29 - ProcessKill 6084
+2022-11-24 19:43:29 - Found child process: 4444 Name: conhost.exe
+2022-11-24 19:43:29 - Found child process: 2536 Name: node.exe
+2022-11-24 19:43:29 - Stopping process 4444
+2022-11-24 19:43:29 - Send SIGINT 4444
+2022-11-24 19:43:29 - SIGINT to 4444 failed - Killing as fallback
+2022-11-24 19:43:29 - Stopping process 2536
+2022-11-24 19:43:29 - Send SIGINT 2536
+2022-11-24 19:43:29 - SIGINT to 2536 failed - Killing as fallback
+2022-11-24 19:43:29 - Stopping process 6084
+2022-11-24 19:43:29 - Send SIGINT 6084
+2022-11-24 19:43:29 - SIGINT to 6084 failed - Killing as fallback
+2022-11-24 19:43:29 - Finished coldstoragemonitoring.exe
