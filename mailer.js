@@ -36,7 +36,7 @@ exports.send = async function( message ) {
     try {
         const result = await transporter.sendMail({
             from: 'test.chotoni123',
-            to: 'rifqi.arti.rt@gmail.com',
+            to: message.to,
             subject: message.subject,
             // text: message.text,
             html: funTemplate(message)

@@ -50,7 +50,7 @@ const pool = mysql.createPool({
   host: '127.0.0.1',
   user: 'root',
   port: 3306,
-  database: 'coldstorage',
+  database: process.env.DATABASE || 'coldstorage',
   waitForConnections: true,
   connectionLimit: 50,
   queueLimit: 0
@@ -58,10 +58,14 @@ const pool = mysql.createPool({
 
 // Mysql Emit
 emitData.on('save', (obj) => {
-    var strValues = obj.map(row => {
-        return `('${row.label}', '${row.value}', '${row.created_at}')`
-    }).join(',');
-    pool.query(`INSERT INTO logging (name, value, created_at) VALUES ${strValues};`, function(err, rows, fields) {
+    // var strValues = obj.map(row => {
+    //     return `('${row.label}', '${row.value}', '${row.created_at}')`
+    // }).join(',');
+    // pool.query(`INSERT INTO logging (name, value, created_at) VALUES ${strValues};`, function(err, rows, fields) {
+    //   if(err) console.log(err)
+    // })
+    var strValues = `('${obj.value1}', '${obj.value2}', '${obj.value3}', '${obj.value4}', '${obj.created_at}')`
+    pool.query(`INSERT INTO logging ( value1, value2, value3, value4, created_at) VALUES ${strValues};`, function(err, rows, fields) {
       if(err) console.log(err)
     })
 });
@@ -95,7 +99,7 @@ emitData.on('telegram', (value) => {
     arr.forEach((obj) => {
         if( !emailed[obj.label] ) {
             console.log('send' + obj.label)
-            mailer.send({subject: 'Cold Storage Alert', text: obj.label, value: obj.value , created_at: obj.created_at})
+            mailer.send({to: process.env.EMAIL , subject: 'Cold Storage Alert', text: obj.label, value: obj.value , created_at: obj.created_at})
             emailed[obj.label] = true
             setTimeout(function(){
                 emailed[obj.label] = false
@@ -170,6 +174,13 @@ socket2.on('end', function(){
     launchIntervalConnect(2)
 })
 
+var temperatureData = {
+    value1:null,
+    value2:null,
+    value3:null,
+    value4:null,
+}
+
 // Main Function Reading Register
 var main1 = async function() {
     if( connected1 ) {
@@ -189,11 +200,15 @@ var main1 = async function() {
                 {label: labels[1], value: arrData[1], created_at: getNow()},
             ]
             objDataSend = objData
-            emitData.emit('save', objData);
+            temperatureData['value1'] = arrData[0]
+            temperatureData['value2'] = arrData[1]
+            // emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
             setTimeout(main1, options[0].loop)
             // console.log(objData)
         } catch (error) {
+            temperatureData['value1'] = null
+            temperatureData['value2'] = null
             console.log(error)
             var objData = [ 
                 {label: labels[0], error: 'Komunikasi Error', message: JSON.stringify(error)},
@@ -237,6 +252,9 @@ var main1 = async function() {
             io.emit(alarm, JSON.stringify(objData));
         }
     } else {
+        
+        temperatureData['value1'] = null
+        temperatureData['value2'] = null
         var objData = [ 
             {label: 'Temperature1', error: 'Komunikasi Terputus' },
             {label: 'Temperature2', error: 'Komunikasi Terputus' },
@@ -262,10 +280,14 @@ var main2 = async function() {
                 {label: labels[3], value: arrData[1], created_at: getNow()},
             ]
             objDataSend = objData
-            emitData.emit('save', objData);
+            // emitData.emit('save', objData);
+            temperatureData['value3'] = arrData[0]
+            temperatureData['value4'] = arrData[1]
             io.emit(room, JSON.stringify(objData));
             setTimeout(main2, options[0].loop)
         } catch (error) {
+            temperatureData['value3'] = null
+            temperatureData['value4'] = null
             console.log(error)
             var objData = [ 
                 {label: labels[2], error: 'Komunikasi Error', message: JSON.stringify(error)},
@@ -306,6 +328,9 @@ var main2 = async function() {
             io.emit(alarm, JSON.stringify(objData));
         }
     } else {
+        
+        temperatureData['value1'] = null
+        temperatureData['value2'] = null
         var objData = [ 
             {label: labels[2], error: 'Komunikasi Terputus' },
             {label: labels[3], error: 'Komunikasi Terputus' },
@@ -315,11 +340,23 @@ var main2 = async function() {
     }
 }
 
+var loopSaveData = function(){
+    var objData = Object.assign( {} , temperatureData)
+    objData['created_at'] = getNow()
+    emitData.emit('save', objData)
+    setTimeout(function(){
+        loopSaveData()
+    }, 5000)
+}
+
 // Execute Modbus
 connect(1)
 connect(2)
 main1()
 main2()
+setTimeout(function(){
+    loopSaveData()
+}, 7000)
 
 // http for Socket IO
 http.listen(port, () => {
