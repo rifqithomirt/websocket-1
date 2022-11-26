@@ -7,6 +7,8 @@ const mysql = require('mysql2');
 const EventEmitter = require('events');
 const dotenv = require('dotenv')
 
+const mailer = require('./mailer')
+
 dotenv.config();
 var socket1 = new net.Socket()
 var socket2 = new net.Socket()
@@ -36,13 +38,19 @@ const options = [{
     'loop' : 5000
 }]
 const telegramBot = '5856032986:AAHBYV-cSPxjrUOvzjlmlynFVLMHrIv-x-A'
+const labels = [
+    'Cold Storage Export 1',
+    'Cold Storage Export 2',
+    'Cold Storage Import 1',
+    'Cold Storage Import 2',
+]
 
 // Mysql Pool
 const pool = mysql.createPool({
   host: '127.0.0.1',
   user: 'root',
-  port: 3307,
-  database: 'cold_storage',
+  port: 3306,
+  database: 'coldstorage',
   waitForConnections: true,
   connectionLimit: 50,
   queueLimit: 0
@@ -51,7 +59,7 @@ const pool = mysql.createPool({
 // Mysql Emit
 emitData.on('save', (obj) => {
     var strValues = obj.map(row => {
-        return `('${row.label}', '${row.value}', '${new Date().toISOString()}')`
+        return `('${row.label}', '${row.value}', '${row.created_at}')`
     }).join(',');
     pool.query(`INSERT INTO logging (name, value, created_at) VALUES ${strValues};`, function(err, rows, fields) {
       if(err) console.log(err)
@@ -70,14 +78,37 @@ var bot = new TeleBot({
     }
 });
 var telid = '-862629218'
-bot.start();
-// bot.sendMessage(telid, 'Bot Started');
+// bot.start();
+var emailed = [
+    {'Cold Storage Export 1' : false},
+    {'Cold Storage Export 2' : false},
+    {'Cold Storage Import 1' : false},
+    {'Cold Storage Import 2' : false},
+]
 
+var emailTime = 2 * 60 * 1000
 // Telegram Emit
 emitData.on('telegram', (value) => {
-    // console.log('bot')
+    console.log('alert')
     // bot.sendMessage(telid, value);
+    var arr = JSON.parse(value)
+    arr.forEach((obj) => {
+        if( !emailed[obj.label] ) {
+            console.log('send' + obj.label)
+            mailer.send({subject: 'Cold Storage Alert', text: obj.label, value: obj.value , created_at: obj.created_at})
+            emailed[obj.label] = true
+            setTimeout(function(){
+                emailed[obj.label] = false
+            }, emailTime)
+        }
+    });
+    
 });
+
+//drift Time
+function getNow() {
+    return new Date(new Date().getTime() + (7 * 3600 * 1000)).toISOString()
+}
 
 // Functions for Modbus Communication 
 function connect(index) {
@@ -141,47 +172,69 @@ socket2.on('end', function(){
 
 // Main Function Reading Register
 var main1 = async function() {
-    // console.log('loop1', connected1)
     if( connected1 ) {
-        client1.readHoldingRegisters(process.env.TEMP1, 2).then(function (result) {
-            var arrData = result.response._body._values
-            var objData = [ 
-                {label: 'Temperature1', value: arrData[0], created_at: new Date().toISOString()}, 
-                {label: 'Temperature2', value: arrData[1], created_at: new Date().toISOString()},
+        var objDataSend = [
+            {value: '-'},
+            {value: '-'},
+        ]
+        try {
+            var temperature = await client1.readHoldingRegisters(process.env.TEMP1, 2)
+            var arrData = [
+                temperature.response._body._valuesAsBuffer.readInt16BE(0),
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)
             ]
+
+            var objData = [ 
+                {label: labels[0], value: arrData[0], created_at: getNow()}, 
+                {label: labels[1], value: arrData[1], created_at: getNow()},
+            ]
+            objDataSend = objData
             emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
-            console.log(arrData, '1')
             setTimeout(main1, options[0].loop)
-        }, function(error){
-            
+            // console.log(objData)
+        } catch (error) {
+            console.log(error)
             var objData = [ 
-                {label: 'Temperature1', error: 'Komunikasi Error', message: JSON.stringify(error)},
-                {label: 'Temperature2', error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: labels[0], error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: labels[1], error: 'Komunikasi Error', message: JSON.stringify(error)},
             ]
             io.emit(room, JSON.stringify(objData));
-            // console.log(error, 'err')
             setTimeout(main1, options[0].loop)
-        });
+        }
 
         try {
-            var resultAlarmHigh = await client1.readCoils(process.env.ALARMHIGH1, 2);
-            var resultAlarmLow = await client1.readCoils(process.env.ALARMLOW1, 2);
+            var resultAlarm = await client1.readHoldingRegisters(process.env.ALARM1, 2);
+            var alarmHigh = [
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 1,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4
+            ]
+            var alarmLow = [
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4
+            ]
 
-            var alarmHigh = resultAlarmHigh.response._body._valuesAsArray
-            var alarmLow = resultAlarmLow.response._body._valuesAsArray
+            // console.log(alarmHigh, alarmLow, resultAlarm.response._body._valuesAsBuffer, '1')
 
-            
             var objData = []
-            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh1', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh2', value: alarmHigh[1], created_at: new Date().toISOString()})
-            if( alarmLow[0] ) objData.push({label: 'AlarmLow1', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmLow[1] ) objData.push({label: 'AlarmLow2', value: alarmHigh[1], created_at: new Date().toISOString()})
-            io.emit(alarm, JSON.stringify(objData));
-            emitData.emit('telegram', JSON.stringify(objData))
-        } catch (err) {
-            console.log(err)
+            if( alarmHigh[0] ) objData.push({label: 'Alarm ' + labels[0] + ' High', value: objDataSend[0]['value'], created_at: getNow()})
+            if( alarmHigh[1] ) objData.push({label: 'Alarm ' + labels[1] + ' High', value: objDataSend[1]['value'], created_at: getNow()})
+            if( alarmLow[0] ) objData.push({label: 'Alarm ' + labels[0] + ' Low', value: objDataSend[0]['value'], created_at: getNow()})
+            if( alarmLow[1] ) objData.push({label: 'Alarm ' + labels[1] + ' Low', value: objDataSend[1]['value'], created_at: getNow()})
+            
+            if( objData.length > 0 ) {
+                // console.log(objData)
+                io.emit(alarm, JSON.stringify(objData));
+                emitData.emit('telegram', JSON.stringify(objData))
+            }
 
+        } catch (error) {
+            console.log(error)
+            var objData = [ 
+                {label: labels[0], error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: labels[1], error: 'Komunikasi Error', message: JSON.stringify(error)},
+            ]
+            io.emit(alarm, JSON.stringify(objData));
         }
     } else {
         var objData = [ 
@@ -193,54 +246,71 @@ var main1 = async function() {
     }
 }
 var main2 = async function() {
-    // console.log('loop')
     if( connected2 ) {
-        client2.readHoldingRegisters(process.env.TEMP2, 2).then(function (result) {
-            var arrData = result.response._body._values
-            var objData = [ 
-                {label: 'Temperature3', value: arrData[0], created_at: new Date().toISOString()},
-                {label: 'Temperature4', value: arrData[1], created_at: new Date().toISOString()},
+        var objDataSend = [
+            {value: '-'},
+            {value: '-'},
+        ]
+        try {
+            var temperature = await client2.readHoldingRegisters(process.env.TEMP2, 2);
+            var arrData = [
+                temperature.response._body._valuesAsBuffer.readInt16BE(0),
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)
             ]
+            var objData = [ 
+                {label: labels[2], value: arrData[0], created_at: getNow()},
+                {label: labels[3], value: arrData[1], created_at: getNow()},
+            ]
+            objDataSend = objData
             emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
-            console.log(arrData, '2')
             setTimeout(main2, options[0].loop)
-        }, function(error){
+        } catch (error) {
+            console.log(error)
             var objData = [ 
-                {label: 'Temperature3', error: 'Komunikasi Error', message: JSON.stringify(error)},
-                {label: 'Temperature4', error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: labels[2], error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: labels[3], error: 'Komunikasi Error', message: JSON.stringify(error)},
             ]
             io.emit(room, JSON.stringify(objData));
-            // console.log(error, 'err')
             setTimeout(main2, options[0].loop)
-        });
-
+        }
+        
         try {
-            var resultAlarmHigh = await client1.readCoils(process.env.ALARMHIGH2, 2);
-            var resultAlarmLow = await client1.readCoils(process.env.ALARMLOW2, 2);
+            var resultAlarm = await client2.readHoldingRegisters(process.env.ALARM2, 2);
+            var alarmHigh = [
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 1,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4
+            ]
+            var alarmLow = [
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4
+            ]
 
-            var alarmHigh = resultAlarmHigh.response._body._valuesAsArray
-            var alarmLow = resultAlarmLow.response._body._valuesAsArray
+            // console.log(alarmHigh, alarmLow, resultAlarm.response._body._valuesAsBuffer, '2')
 
-            
             var objData = []
-            if( alarmHigh[0] ) objData.push({label: 'AlarmHigh3', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmHigh[1] ) objData.push({label: 'AlarmHigh4', value: alarmHigh[1], created_at: new Date().toISOString()})
-            if( alarmLow[0] ) objData.push({label: 'AlarmLow3', value: alarmHigh[0], created_at: new Date().toISOString()})
-            if( alarmLow[1] ) objData.push({label: 'AlarmLow4', value: alarmHigh[1], created_at: new Date().toISOString()})
+            if( alarmHigh[0] ) objData.push({label: 'Alarm ' + labels[2] + ' High', value: objDataSend[0]['value'], created_at: getNow()})
+            if( alarmHigh[1] ) objData.push({label: 'Alarm ' + labels[3] + ' High', value: objDataSend[1]['value'], created_at: getNow()})
+            if( alarmLow[0] ) objData.push({label: 'Alarm ' + labels[2] + ' Low', value: objDataSend[0]['value'], created_at: getNow()})
+            if( alarmLow[1] ) objData.push({label: 'Alarm ' + labels[3] + ' Low', value: objDataSend[1]['value'], created_at: getNow()})
+            if( objData.length > 0 ) {
+                io.emit(alarm, JSON.stringify(objData));
+                emitData.emit('telegram', JSON.stringify(objData))
+            }
+        } catch (error) {
+            console.log(error)
+            var objData = [ 
+                {label: 'Alarm ' + labels[2], error: 'Komunikasi Error', message: JSON.stringify(error)},
+                {label: 'Alarm ' + labels[3], error: 'Komunikasi Error', message: JSON.stringify(error)},
+            ]
             io.emit(alarm, JSON.stringify(objData));
-            emitData.emit('telegram', JSON.stringify(objData))
-        } catch (err) {
-            console.log(err)
-
         }
     } else {
         var objData = [ 
-            {label: 'Temperature3', error: 'Komunikasi Terputus' },
-            {label: 'Temperature4', error: 'Komunikasi Terputus' },
+            {label: labels[2], error: 'Komunikasi Terputus' },
+            {label: labels[3], error: 'Komunikasi Terputus' },
         ]
         io.emit(room, JSON.stringify(objData));
-        // console.log(connected2, 'connected')
         setTimeout(main2, options[0].loop)
     }
 }
