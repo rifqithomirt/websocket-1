@@ -1,13 +1,5 @@
 const nodemailer = require('nodemailer');
 
-const transporter = nodemailer.createTransport({
-    service: 'gmail',
-    auth: {
-        user: 'test.chotoni123',
-        pass: 'pnchnwnqqogegcgl'
-    }
-});
-
 var funTemplate = function(obj){
     return `
         <div style="margin-left:20px; margin-right:20px;">
@@ -24,7 +16,7 @@ var funTemplate = function(obj){
                 </div>
                 <div style="margin: 2px; display: flex;">
                     <span style="width: 4rem;">Date</span>:&nbsp;
-                    <span>${obj.created_at}</span>
+                    <span>${obj.alert_time.substr(0,19).replace('T', ' ')}</span>
                 </div>
             </div>
             <p style="font-size:14px;">Unfortunately, this email is an automated notification, which is unable to receive replies.</p>
@@ -34,15 +26,27 @@ var funTemplate = function(obj){
 
 exports.send = async function( message ) {
     try {
-        const result = await transporter.sendMail({
-            from: 'test.chotoni123',
+        console.log(message)
+        let transporter = nodemailer.createTransport({
+            host: message.host,
+            port: message.port,
+            secure: false,
+            // auth: {
+            //     user: 'rifqithomi@chotoni.id', // generated ethereal user
+            //     pass: 'rifqithomi123-', // generated ethereal password
+            // },
+        });
+        let result = await transporter.sendMail({
+            from: message.from,
             to: message.to,
             subject: message.subject,
             // text: message.text,
             html: funTemplate(message)
         });
+        console.log(result)
         return result
     } catch (ex) {
+        console.log(ex)
         return ex
     }
 };

@@ -50,6 +50,7 @@ const pool = mysql.createPool({
   host: '127.0.0.1',
   user: 'root',
   port: 3306,
+  password: process.env.DBPASSWORD || '',
   database: process.env.DATABASE || 'coldstorage',
   waitForConnections: true,
   connectionLimit: 50,
@@ -90,22 +91,36 @@ var emailed = [
     {'Cold Storage Import 2' : false},
 ]
 
-var emailTime = 2 * 60 * 1000
-// Telegram Emit
-emitData.on('telegram', (value) => {
+var emailTime = 15 * 60 * 1000
+// Email Emit
+emitData.on('email', (value) => {
     console.log('alert')
-    // bot.sendMessage(telid, value);
-    var arr = JSON.parse(value)
-    arr.forEach((obj) => {
-        if( !emailed[obj.label] ) {
-            console.log('send' + obj.label)
-            mailer.send({to: process.env.EMAIL , subject: 'Cold Storage Alert', text: obj.label, value: obj.value , created_at: obj.created_at})
-            emailed[obj.label] = true
-            setTimeout(function(){
-                emailed[obj.label] = false
-            }, emailTime)
+    pool.query(`SELECT * FROM settings;`, function(err, rows, fields) {
+        if(err) {
+            console.log(err)
+        } else {
+            var emailSettings = rows[0]
+            emailTime = emailSettings['interval'] * 60 * 1000
+
+            if( emailSettings['notification'] == 'enable' ) {
+                var arr = JSON.parse(value)
+                arr.forEach((obj) => {
+                    if( !emailed[obj.label] ) {
+                        console.log('send' + obj.label)
+                        var objEmail = Object.assign( {subject: 'Cold Storage Alert', text: obj.label, value: obj.value , alert_time: obj.created_at}, emailSettings)
+                        mailer.send(objEmail)
+                        emailed[obj.label] = true
+                        setTimeout(function(){
+                            emailed[obj.label] = false
+                        }, emailTime)
+                    }
+                });
+            }
         }
-    });
+    })
+    
+
+    
     
 });
 
@@ -183,6 +198,7 @@ var temperatureData = {
 
 // Main Function Reading Register
 var main1 = async function() {
+    console.log(connected1, 'loop1')
     if( connected1 ) {
         var objDataSend = [
             {value: '-'},
@@ -191,17 +207,17 @@ var main1 = async function() {
         try {
             var temperature = await client1.readHoldingRegisters(process.env.TEMP1, 2)
             var arrData = [
-                temperature.response._body._valuesAsBuffer.readInt16BE(0),
-                temperature.response._body._valuesAsBuffer.readInt16BE(2)
+                temperature.response._body._valuesAsBuffer.readInt16BE(0)*0.1,
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)*0.1
             ]
 
             var objData = [ 
-                {label: labels[0], value: arrData[0], created_at: getNow()}, 
-                {label: labels[1], value: arrData[1], created_at: getNow()},
+                {label: labels[0], value: arrData[0].toFixed(1)*1, created_at: getNow()}, 
+                {label: labels[1], value: arrData[1].toFixed(1)*1, created_at: getNow()},
             ]
             objDataSend = objData
-            temperatureData['value1'] = arrData[0]
-            temperatureData['value2'] = arrData[1]
+            temperatureData['value1'] = arrData[0].toFixed(1)*1
+            temperatureData['value2'] = arrData[1].toFixed(1)*1
             // emitData.emit('save', objData);
             io.emit(room, JSON.stringify(objData));
             setTimeout(main1, options[0].loop)
@@ -240,7 +256,7 @@ var main1 = async function() {
             if( objData.length > 0 ) {
                 // console.log(objData)
                 io.emit(alarm, JSON.stringify(objData));
-                emitData.emit('telegram', JSON.stringify(objData))
+                emitData.emit('email', JSON.stringify(objData))
             }
 
         } catch (error) {
@@ -264,6 +280,7 @@ var main1 = async function() {
     }
 }
 var main2 = async function() {
+    console.log(connected2, 'loop2')
     if( connected2 ) {
         var objDataSend = [
             {value: '-'},
@@ -272,17 +289,17 @@ var main2 = async function() {
         try {
             var temperature = await client2.readHoldingRegisters(process.env.TEMP2, 2);
             var arrData = [
-                temperature.response._body._valuesAsBuffer.readInt16BE(0),
-                temperature.response._body._valuesAsBuffer.readInt16BE(2)
+                temperature.response._body._valuesAsBuffer.readInt16BE(0)*0.1,
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)*0.1
             ]
             var objData = [ 
-                {label: labels[2], value: arrData[0], created_at: getNow()},
-                {label: labels[3], value: arrData[1], created_at: getNow()},
+                {label: labels[2], value: (arrData[0]).toFixed(1)*1, created_at: getNow()},
+                {label: labels[3], value: (arrData[1]).toFixed(1)*1, created_at: getNow()},
             ]
             objDataSend = objData
             // emitData.emit('save', objData);
-            temperatureData['value3'] = arrData[0]
-            temperatureData['value4'] = arrData[1]
+            temperatureData['value3'] = arrData[0].toFixed(1)*1
+            temperatureData['value4'] = arrData[1].toFixed(1)*1
             io.emit(room, JSON.stringify(objData));
             setTimeout(main2, options[0].loop)
         } catch (error) {
@@ -317,7 +334,7 @@ var main2 = async function() {
             if( alarmLow[1] ) objData.push({label: 'Alarm ' + labels[3] + ' Low', value: objDataSend[1]['value'], created_at: getNow()})
             if( objData.length > 0 ) {
                 io.emit(alarm, JSON.stringify(objData));
-                emitData.emit('telegram', JSON.stringify(objData))
+                emitData.emit('email', JSON.stringify(objData))
             }
         } catch (error) {
             console.log(error)
