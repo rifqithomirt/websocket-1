@@ -35,6 +35,7 @@ exports.send = async function( message ) {
             //     user: 'rifqithomi@chotoni.id', // generated ethereal user
             //     pass: 'rifqithomi123-', // generated ethereal password
             // },
+            tls: {rejectUnauthorized: false} 
         });
         let result = await transporter.sendMail({
             from: message.from,
