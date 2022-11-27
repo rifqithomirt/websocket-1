@@ -121,7 +121,7 @@ emitData.on('email', (value) => {
 });
 
 // Program untuk Test Email
-emitData.emit('email', JSON.stringify( [{label: 'Alarm ' + labels[2] + ' High', value: -10, created_at: getNow()}]))
+// emitData.emit('email', JSON.stringify( [{label: 'Alarm ' + labels[2] + ' High', value: -10, created_at: getNow()}]))
 
 //drift Time
 function getNow() {
