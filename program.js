@@ -118,11 +118,10 @@ emitData.on('email', (value) => {
             }
         }
     })
-    
-
-    
-    
 });
+
+
+emitData.emit('email', JSON.stringify( [{label: 'Alarm ' + labels[2] + ' High Test', value: -10, created_at: getNow()}]))
 
 //drift Time
 function getNow() {
