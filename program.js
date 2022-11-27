@@ -197,7 +197,7 @@ var temperatureData = {
 
 // Main Function Reading Register
 var main1 = async function() {
-    console.log(connected1, 'loop1')
+    // console.log(connected1, 'loop1')
     if( connected1 ) {
         var objDataSend = [
             {value: '-'},
@@ -279,7 +279,7 @@ var main1 = async function() {
     }
 }
 var main2 = async function() {
-    console.log(connected2, 'loop2')
+    // console.log(connected2, 'loop2')
     if( connected2 ) {
         var objDataSend = [
             {value: '-'},
