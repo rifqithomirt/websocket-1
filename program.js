@@ -272,8 +272,8 @@ var main1 = async function() {
         temperatureData['value1'] = null
         temperatureData['value2'] = null
         var objData = [ 
-            {label: 'Temperature1', error: 'Komunikasi Terputus' },
-            {label: 'Temperature2', error: 'Komunikasi Terputus' },
+            {label:labels[0], error: 'Komunikasi Terputus' },
+            {label: labels[1], error: 'Komunikasi Terputus' },
         ]
         io.emit(room, JSON.stringify(objData));
         setTimeout(main1, options[0].loop)
