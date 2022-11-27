@@ -107,7 +107,7 @@ emitData.on('email', (value) => {
                 arr.forEach((obj) => {
                     if( !emailed[obj.label] ) {
                         console.log('send' + obj.label)
-                        var objEmail = Object.assign( {subject: 'Cold Storage Alert', text: obj.label, value: obj.value , alert_time: obj.created_at}, emailSettings)
+                        var objEmail = Object.assign( {text: obj.label, value: obj.value , alert_time: obj.created_at}, emailSettings)
                         mailer.send(objEmail)
                         emailed[obj.label] = true
                         setTimeout(function(){
@@ -121,7 +121,7 @@ emitData.on('email', (value) => {
 });
 
 // Program untuk Test Email
-// emitData.emit('email', JSON.stringify( [{label: 'Alarm ' + labels[2] + ' High Test', value: -10, created_at: getNow()}]))
+emitData.emit('email', JSON.stringify( [{label: 'Alarm ' + labels[2] + ' High', value: -10, created_at: getNow()}]))
 
 //drift Time
 function getNow() {
