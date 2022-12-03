@@ -236,12 +236,12 @@ var main1 = async function() {
         try {
             var resultAlarm = await client1.readHoldingRegisters(process.env.ALARM1, 2);
             var alarmHigh = [
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4, // Switch Alarm Value
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1, // Switch Alarm Value
                 resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 1
             ]
             var alarmLow = [
                 resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4, // Switch Alarm Value
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4
             ]
 
             // console.log(alarmHigh, alarmLow, resultAlarm.response._body._valuesAsBuffer, '1')
@@ -316,12 +316,12 @@ var main2 = async function() {
         try {
             var resultAlarm = await client2.readHoldingRegisters(process.env.ALARM2, 2);
             var alarmHigh = [
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4, // Switch Alarm Value
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1, // Switch Alarm Value
                 resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 1,
             ]
             var alarmLow = [
                 resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4, // Switch Alarm Value
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4
             ]
 
             // console.log(alarmHigh, alarmLow, resultAlarm.response._body._valuesAsBuffer, '2')
