@@ -367,9 +367,11 @@ var loopSaveData = function(){
 
 // Execute Modbus
 connect(1)
-connect(2)
 main1()
-main2()
+setTimeout( function(){
+    connect(2)
+    main2()
+}, 1000 )
 setTimeout(function(){
     loopSaveData()
 }, 7000)
