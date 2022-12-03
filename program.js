@@ -264,7 +264,7 @@ var main1 = async function() {
                 {label: labels[0], error: 'Komunikasi Error', message: JSON.stringify(error)},
                 {label: labels[1], error: 'Komunikasi Error', message: JSON.stringify(error)},
             ]
-            io.emit(alarm, JSON.stringify(objData));
+            io.emit(room, JSON.stringify(objData));
         }
     } else {
         
@@ -341,7 +341,7 @@ var main2 = async function() {
                 {label: 'Alarm ' + labels[2], error: 'Komunikasi Error', message: JSON.stringify(error)},
                 {label: 'Alarm ' + labels[3], error: 'Komunikasi Error', message: JSON.stringify(error)},
             ]
-            io.emit(alarm, JSON.stringify(objData));
+            io.emit(room, JSON.stringify(objData));
         }
     } else {
         
