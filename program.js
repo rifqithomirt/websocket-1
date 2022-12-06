@@ -169,6 +169,7 @@ socket2.on('connect', function () {
 }); 
 socket1.on('error', function (err) {
     console.log(err, 'error1')
+    launchIntervalConnect(1)
 });     
 socket2.on('error', function (err) {
     console.log(err, 'error2')
@@ -288,8 +289,8 @@ var main2 = async function() {
         try {
             var temperature = await client2.readHoldingRegisters(process.env.TEMP2, 2);
             var arrData = [
-                temperature.response._body._valuesAsBuffer.readInt16BE(2)*0.1, // Switch Data Import 1 & 2
-                temperature.response._body._valuesAsBuffer.readInt16BE(0)*0.1
+                temperature.response._body._valuesAsBuffer.readInt16BE(0)*0.1,
+                temperature.response._body._valuesAsBuffer.readInt16BE(2)*0.1 
             ]
             var objData = [ 
                 {label: labels[2], value: (arrData[0]).toFixed(1)*1, created_at: getNow()},
@@ -316,12 +317,12 @@ var main2 = async function() {
         try {
             var resultAlarm = await client2.readHoldingRegisters(process.env.ALARM2, 2);
             var alarmHigh = [
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1, // Switch Alarm Value
                 resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 1,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 1
             ]
             var alarmLow = [
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4, // Switch Alarm Value
-                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(0) === 4,
+                resultAlarm.response._body._valuesAsBuffer.readInt16BE(2) === 4
             ]
 
             // console.log(alarmHigh, alarmLow, resultAlarm.response._body._valuesAsBuffer, '2')
