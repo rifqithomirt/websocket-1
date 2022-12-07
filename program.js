@@ -29,12 +29,12 @@ var client2 = new Modbus.client.TCP(socket2, unitId)
 const options = [{
     'host' : process.env.IP1,
     'port' : process.env.PORT1,
-    'retry': 10000,
+    'retry': 3000,
     'loop' : 5000
 }, {
     'host' : process.env.IP2,
     'port' : process.env.PORT2,
-    'retry': 10000,
+    'retry': 3000,
     'loop' : 5000
 }]
 const telegramBot = '5856032986:AAHBYV-cSPxjrUOvzjlmlynFVLMHrIv-x-A'
@@ -168,11 +168,11 @@ socket2.on('connect', function () {
     connected2 = true
 }); 
 socket1.on('error', function (err) {
-    console.log(err, 'error1')
+    console.log(err, 'error1', getNow())
     launchIntervalConnect(1)
 });     
 socket2.on('error', function (err) {
-    console.log(err, 'error2')
+    console.log(err, 'error2', getNow())
     launchIntervalConnect(2)
 });    
 
