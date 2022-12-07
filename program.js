@@ -346,8 +346,8 @@ var main2 = async function() {
         }
     } else {
         
-        temperatureData['value1'] = null
-        temperatureData['value2'] = null
+        temperatureData['value3'] = null
+        temperatureData['value4'] = null
         var objData = [ 
             {label: labels[2], error: 'Komunikasi Terputus' },
             {label: labels[3], error: 'Komunikasi Terputus' },
